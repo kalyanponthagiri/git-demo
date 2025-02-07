@@ -1,0 +1,12 @@
+package com.java.junit5;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+
+public class ArrayTest {
+	void compareArrays() {
+		String s = "ASD FGH JKL";
+		String[] actual = s.split(" ");
+		String[] exp = {"ASD","FGH","JKL"};
+		assertArrayEquals(exp,actual);
+	}
+}

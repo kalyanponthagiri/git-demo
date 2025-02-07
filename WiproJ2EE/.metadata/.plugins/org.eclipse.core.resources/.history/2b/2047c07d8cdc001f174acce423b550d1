@@ -1,0 +1,49 @@
+package com.java.collections;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class InteratorExample {
+
+	public static void main(String[] args) {
+		
+//		List l = new ArrayList();
+//		
+//		l.add(100);
+//		l.add("Mario");
+//		l.add(200);
+//		l.add(true);
+//		l.add(40.5);
+//		
+//		for(Object o : l) {
+//			System.out.println(o);
+//		}
+		
+		List ll = new ArrayList();
+		
+		ll.add(10);
+		ll.add(20);
+		ll.add(30);
+		ll.add(40);
+		ll.add(50);
+		ll.add(60);
+		
+		Iterator i = ll.iterator();
+		
+		while(i.hasNext()) {
+			System.out.println(i.next());
+			System.out.println();
+			
+			Integer n = (Integer) i.next();
+			
+			System.out.println(n);
+			
+			if(n%2 != 0) {
+				i.remove();
+			}
+		}
+		System.out.println(ll);
+	}
+
+}

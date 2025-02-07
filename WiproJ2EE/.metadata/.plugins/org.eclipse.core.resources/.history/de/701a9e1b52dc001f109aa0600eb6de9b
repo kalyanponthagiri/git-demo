@@ -1,0 +1,9 @@
+package com.java.exceptionHandling;
+
+import java.util.Scanner;
+
+public class HandlingException_03 {
+
+	Scanner sc = new Scanner(System.in);	
+	
+}

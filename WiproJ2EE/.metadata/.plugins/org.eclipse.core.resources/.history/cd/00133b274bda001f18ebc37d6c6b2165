@@ -1,0 +1,33 @@
+package com.java.scenario.three;
+
+import java.util.Scanner;
+
+public class Patient extends User{
+	
+	Scanner sc = new Scanner(System.in);
+	
+	public void displayMeanu()
+	{
+		System.out.println("Select option: ");
+        System.out.println("1. Book Appointment");
+        System.out.println("2. View Medical History");
+        System.out.println("3. Make Payment");
+	}
+	public Patient(String name, String email, String number) {
+		super(name, email, number);
+	}
+
+	public void bookAppointment() {
+		
+	}
+	
+	public void viewMedicalHistory() {
+		
+	}
+	
+	public void makePayment() {
+		
+	}
+	
+	
+}

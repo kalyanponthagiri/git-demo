@@ -1,0 +1,13 @@
+package com.java.lamdaExpression;
+
+import java.util.TreeSet;
+
+public class StudentRunner {
+
+	public static void main(String[] args) {
+		
+		TreeSet<Student> obj = new TreeSet<>();
+
+	}
+
+}

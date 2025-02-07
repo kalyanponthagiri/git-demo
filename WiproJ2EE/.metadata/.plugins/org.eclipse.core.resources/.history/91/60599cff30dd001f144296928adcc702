@@ -1,0 +1,13 @@
+package com.java.collections;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapExample {
+	Map<Integer, String> hash = new HashMap<>();
+	
+	public static void main(String[] args) {
+		
+		hash.put(101. "kalyan");
+	}
+}

@@ -1,0 +1,20 @@
+package com.java.collections;
+
+import java.util.TreeSet;
+
+public class StudentRunner {
+
+	public static void main(String[] args) {
+		
+		TreeSet<Student> hs = new TreeSet<>();
+		
+		hs.add(new Student(1,"Kalyan"));
+		hs.add(new Student(3,"Lokesh"));
+		hs.add(new Student(6,"Muzu"));
+		hs.add(new Student(9,"Rishi"));
+		hs.add(new Student(44,"Dr.Sai"));
+		
+		System.out.println(hs);
+	}
+
+}

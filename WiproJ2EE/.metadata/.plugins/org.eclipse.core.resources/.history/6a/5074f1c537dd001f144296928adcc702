@@ -1,0 +1,8 @@
+package com.java.collections;
+
+public class StudentNameComparator{
+	
+	private int sid;
+	private String sname;
+	
+}

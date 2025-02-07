@@ -1,0 +1,5 @@
+package com.java.junit5;
+
+public class MathTest {
+
+}

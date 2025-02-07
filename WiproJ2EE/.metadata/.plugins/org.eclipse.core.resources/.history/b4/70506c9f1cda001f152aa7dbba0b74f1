@@ -1,0 +1,5 @@
+package com.java.interface_example;
+
+public interface InterfaceA {
+
+}

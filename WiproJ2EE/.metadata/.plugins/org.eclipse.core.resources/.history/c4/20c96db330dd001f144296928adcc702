@@ -1,0 +1,8 @@
+package com.java.collections;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapExample {
+	Map<Integer, String> hash = new HashMap<>();
+}

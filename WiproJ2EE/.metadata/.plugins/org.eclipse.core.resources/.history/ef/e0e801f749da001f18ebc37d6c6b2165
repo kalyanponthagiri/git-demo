@@ -1,0 +1,23 @@
+package com.java.scenario.three;
+
+public class Patient extends User{
+	
+	
+	public Patient(String name, String email, String number) {
+		super(name, email, number);
+	}
+
+	public void bookAppointment() {
+		
+	}
+	
+	public void viewMedicalHistory() {
+		
+	}
+	
+	public void makePayment() {
+		
+	}
+	
+	
+}

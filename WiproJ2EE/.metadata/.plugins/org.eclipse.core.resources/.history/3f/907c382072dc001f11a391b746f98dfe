@@ -1,0 +1,13 @@
+package com.java.collections;
+
+public class Array {
+
+	public static void main(String[] args) {
+		
+		int arr[];
+		
+		arr = new int[4];
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.java.interface_example3;
+
+public class Squre implements Shape {
+
+	@Override
+	public double area() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.java.lamdaExpression;
+
+@FunctionalInterface
+interface D{
+	int sum(int a, int b);
+}
+
+
+public class Example4 {
+
+		public static void main(String[] args) {
+			
+			D obj = (a, b) -> {
+				sum = a+b;
+				return sum;
+			};
+			
+			System.out.println(obj.sum(10,20));
+		}
+}

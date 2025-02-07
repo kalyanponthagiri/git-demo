@@ -1,0 +1,16 @@
+package com.java.junit5;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class StringTest {
+
+	@Test
+	void test() {
+		int l = "string".length();
+		int exp = 6;
+		assertEquals(exp,l);
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.java.scenario.three;
+
+public class Doctor extends User{
+	
+	public Doctor(String name, String email, String number) {
+		super(name, email, number);
+		// TODO Auto-generated constructor stub
+	}
+
+	public void addAppointment() {
+		
+	}
+	
+	public void viewAppointments() {
+		
+	}
+	
+	public void accessMedicalRecords() {
+		
+	}
+	
+}

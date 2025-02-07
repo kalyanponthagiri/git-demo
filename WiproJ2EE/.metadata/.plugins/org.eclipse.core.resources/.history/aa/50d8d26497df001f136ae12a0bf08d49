@@ -1,0 +1,27 @@
+package com.java.junit5;
+
+import java.util.ArrayList;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import com.java.test.TestClass1;
+
+class Test1 {
+	
+	@BeforeAll
+	void sample() {
+		TestClass1 test = new TestClass1();
+	}
+	
+	@Test
+	void execute() {
+		ArrayList<Integer> arr = new ArrayList<>();
+		arr.add(10);
+		arr.add(20);
+		arr.add(30);
+		arr.add(40);
+	}
+	
+
+}

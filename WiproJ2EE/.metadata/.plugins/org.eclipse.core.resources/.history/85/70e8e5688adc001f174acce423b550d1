@@ -1,0 +1,19 @@
+package com.java.collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class InteratorExample {
+
+	public static void main(String[] args) {
+		
+		List l = new ArrayList();
+		
+		l.add(100);
+		l.add("Mario");
+		l.add(200);
+		l.add(true);
+		l.add(40.5);
+	}
+
+}

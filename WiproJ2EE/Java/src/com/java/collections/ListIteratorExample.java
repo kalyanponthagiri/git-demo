@@ -1,0 +1,29 @@
+package com.java.collections;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.ListIterator;
+
+public class ListIteratorExample {
+    public static void main(String[] args) {
+        List<Integer> l = new ArrayList<>();
+        l.add(1);
+        l.add(2);
+        l.add(3);
+        l.add(4);
+        l.add(5);
+        l.add(6);
+
+        ListIterator<Integer> itr = l.listIterator();
+
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }
+        
+        System.out.println();
+        
+        while (itr.hasPrevious()) {
+            System.out.println(itr.previous()); 
+        }
+    }
+}

@@ -1,0 +1,20 @@
+package com.java.exceptionHandling;
+
+public class ThrowsKeywordSub {
+	
+	private int a;
+	private int b;
+
+	public ThrowsKeywordSub(int a,int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	public int division()  // throws ArithmeticException {
+		
+		int ans = a/b;
+		
+		return ans;
+	}
+
+}

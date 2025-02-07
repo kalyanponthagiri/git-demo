@@ -1,0 +1,28 @@
+package com.java.constructor;
+
+public class ConstructorPractice {
+	int a = 100;
+	int b = 200;
+	
+	ConstructorPractice(){
+		System.out.println("Non parameterized constructor function");
+		System.out.println("a value : "+ a);
+		System.out.println("b value : "+b);
+			
+		}
+	ConstructorPractice(int num1, int num2){
+		a = num1;
+		b = num2;
+		System.out.println("Parameterized constructor function with two paramaters");
+		System.out.println("a value : "+ a);
+		System.out.println("b value : "+b);
+	}
+	
+	ConstructorPractice(int num1, int num2, int num3){
+		System.out.println("Parameterized constructor function with three paramaters");
+		System.out.println("a value : "+ num1);
+		System.out.println("b value : "+num2);
+		System.out.println("b value : "+num3);
+	}
+}
+

@@ -1,0 +1,9 @@
+package com.java.scenario.three;
+
+public class Admin extends User{
+	
+	public void manageUserData() {
+		
+	}
+	
+}

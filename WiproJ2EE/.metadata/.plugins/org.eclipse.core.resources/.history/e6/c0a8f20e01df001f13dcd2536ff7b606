@@ -1,0 +1,14 @@
+package com.java.junit5;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+public class MathTest {
+	
+	@Test
+	void minValue() {
+		int v = Math.min(20, 10);
+		assertEquals(20,v);
+	}
+}

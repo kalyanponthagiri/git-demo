@@ -1,0 +1,10 @@
+package com.java.scenario.four;
+
+import java.util.HashMap;
+import java.util.List;
+
+public class TaskManagementSystem {
+	
+	private HashMap<Integer, Employee> employeeMap = new HashMap<>();
+	private HashMap<Integer, List<Task>> taskMap = new HashMap<>();
+}

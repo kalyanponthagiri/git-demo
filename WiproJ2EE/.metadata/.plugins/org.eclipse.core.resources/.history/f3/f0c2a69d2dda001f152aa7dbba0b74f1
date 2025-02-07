@@ -1,0 +1,11 @@
+package com.java.interface_example3;
+
+public class Triangle implements Shape {
+
+	@Override
+	public int area() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

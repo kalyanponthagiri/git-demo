@@ -1,0 +1,6 @@
+package com.java.interface_example3;
+
+public interface Squre extends Shape {
+	doubble r;
+	
+}

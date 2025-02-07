@@ -1,0 +1,21 @@
+package com.java.lamdaExpression;
+
+import java.util.TreeSet;
+
+public class StudentRunner {
+
+	public static void main(String[] args) {
+		
+		TreeSet<Student> obj = new TreeSet<>();
+		
+		obj.add(new Student(101,"Beck"));
+		obj.add(new Student(102,"Camp"));
+		obj.add(new Student(103,"Frog"));
+		obj.add(new Student(104,"Apple"));
+		obj.add(new Student(105,"Dock"));
+		
+		
+
+	}
+
+}

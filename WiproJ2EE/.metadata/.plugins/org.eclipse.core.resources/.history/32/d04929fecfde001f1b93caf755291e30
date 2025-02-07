@@ -1,0 +1,41 @@
+package com.java.jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.Scanner;
+
+public class Example3 {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/Work?useSSL=false","root",null);
+		
+		PreparedStatement ps = connection.prepareStatement("update Student set Name = ? where ID = ?");
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter ID number where you want to update");
+		int n = sc.nextInt();
+		System.out.println("Enter the new data");
+		String name = sc.next();
+		
+		ps.setInt(1, n);
+		ps.setString(2, name);
+		
+		int x = ps.executeUpdate();
+		System.out.println(x + " rows inserted");
+		System.out.println();
+		
+		ResultSet res = ps.executeQuery("select * from student");
+		while(res.next()) {
+			System.out.println(res.getInt(1) + " " + res.getString(2));
+		}
+		
+		connection.close();
+		sc.close();
+	}
+
+}

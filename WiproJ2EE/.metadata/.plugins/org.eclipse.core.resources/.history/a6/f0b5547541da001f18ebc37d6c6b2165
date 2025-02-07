@@ -1,0 +1,9 @@
+package com.java.exceptionHandling;
+
+public class ThrowsKeywordSub {
+
+	public ThrowsKeywordSub() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

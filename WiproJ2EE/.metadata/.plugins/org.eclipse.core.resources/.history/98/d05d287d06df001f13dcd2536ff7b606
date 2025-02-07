@@ -1,0 +1,33 @@
+package com.java.junit5;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+
+public class Annatations {
+	
+	@BeforeEach
+	void pritBefore() {
+		System.out.println("Just Do It");
+	}
+	
+	@AfterEach
+	void printAfter() {
+		System.out.println("Afert");
+	}
+	
+	void test1() {
+		int num = 4;
+		assertEquals(4,num);
+	}
+	
+	void test2() {
+		System.out.println("Printed");
+	}
+	
+	void test3() {
+		Integer num = null;
+		assertEquals(null,num);
+	}
+}

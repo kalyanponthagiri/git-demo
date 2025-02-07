@@ -1,0 +1,13 @@
+package com.java.collections;
+
+import java.util.Comparator;
+
+public class StudentNameComparator implements Comparator<Student>{
+
+	@Override
+	public int compare(Object o1, Object o2) {
+		
+		return o1.getSname.compareTo(o2.getSname());
+	}
+	
+}

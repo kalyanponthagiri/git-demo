@@ -1,0 +1,12 @@
+package com.java.temp;
+
+import com.java.accessModifier.AccessAcrossPakages;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		AccessAcrossPakages obj = new AccessAcrossPakages();
+		System.out.println(obj.sum(););
+	}
+}

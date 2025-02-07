@@ -1,0 +1,12 @@
+package com.java.collections;
+
+import java.util.Comparator;
+
+public class StudentCompatatorRunner implements Comparator<Student>{
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

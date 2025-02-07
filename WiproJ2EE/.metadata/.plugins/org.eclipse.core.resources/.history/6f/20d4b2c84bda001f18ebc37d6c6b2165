@@ -1,0 +1,14 @@
+package com.java.scenario.three;
+
+public class Admin extends User{
+	
+	public Admin(String name, String email, String number) {
+		super(name, email, number);
+		// TODO Auto-generated constructor stub
+	}
+
+	public void manageUserData() {
+		
+	}
+	
+}

@@ -1,0 +1,18 @@
+package com.java.scenario.four;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.PriorityQueue;
+
+public class TaskManagementSystem {
+	
+	private HashMap<Integer, Employee> employeeMap = new HashMap<>();
+	private HashMap<Integer, List<Task>> taskMap = new HashMap<>();
+	private PriorityQueue<Task> taskPriority = new PriorityQueue<>();
+	private LinkedList<Task> pendingTasks = new LinkedList<>();
+	
+	public void addEmployee(Employee data) {
+		employeeMap.put(data.getID(), data);
+	}
+}

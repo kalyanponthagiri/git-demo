@@ -1,0 +1,20 @@
+package com.java.collections;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapExample {
+	static Map<Integer, String> hash = new HashMap<>(); //can be used anywhere in the class
+	
+	public static void main(String[] args) {
+		
+		hash.put(101, "kalyan");
+		hash.put(102, "lokesh");
+		hash.put(103, "muzu");
+		hash.put(104, "rishi");
+		hash.put(105, "aarif");
+		hash.put(106, "subbu");
+		
+		System.out.println(hash);
+	}
+}

@@ -1,0 +1,15 @@
+package com.java.lamdaExpression;
+
+
+@FunctionalInterface
+interface C{
+	int sum(int a);
+}
+
+public class Example3 {
+	
+	public static void main(String[] args) {
+		C obj = a -> a;
+		System.out.println(obj.sum(20));
+	}
+}
